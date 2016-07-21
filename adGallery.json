@@ -1,0 +1,71 @@
+{
+	"templates": [{
+		"name" : "Polite Banner",
+		"tId": "IMU",
+		"creatives": [{
+			"title": "Disney Frozen",
+			"type": "HTML5",
+			"description": "dummy text",
+			"thumb": "images/thumb1.jpg",
+			"keywords": "disney, videowall, html5",
+			"previewLink" : "www.google.com",
+			"images":["images/preview1.jpg, images/preview2.jpg"]
+		  },
+		  {
+			"title": "Captain America",
+			"description": "dummy text",
+			"thumb": "images/thumb1.jpg",
+			"keywords": "disney, videowall, html5",
+			"previewLink" : "www.google.com",
+			"imgGallery":[{
+				"image":"images/preview1.jpg",
+				"title": "banner",
+				"description" : "this is the collapsed state"
+			},
+			{
+				"image":"images/preview1.jpg",
+				"title": "banner",
+				"description" : "this is the collapsed state"
+			}]
+		  }]
+		},
+		{
+		"name" : "Polite Banner",
+		"cId": "B",
+		"tId": "IMU",
+		"creatives": [{
+			"title": "Disney Frozen",
+			"description": "dummy text",
+			"thumb": "images/thumb1.jpg",
+			"keywords": "disney, videowall, html5",
+			"previewLink" : "www.google.com",
+			"imgGallery":[{
+				"image":"images/preview1.jpg",
+				"title": "banner",
+				"description" : "this is the collapsed state"
+			},
+			{
+				"image":"images/preview1.jpg",
+				"title": "banner",
+				"description" : "this is the collapsed state"
+			}]
+		  },
+		  {
+			"title": "Disney Frozen",
+			"description": "dummy text",
+			"thumb": "images/thumb1.jpg",
+			"keywords": "disney, videowall, html5",
+			"previewLink" : "www.google.com",
+			"imgGallery":[{
+				"image":"images/preview1.jpg",
+				"title": "banner",
+				"description" : "this is the collapsed state"
+			},
+			{
+				"image":"images/preview1.jpg",
+				"title": "banner",
+				"description" : "this is the collapsed state"
+			}]
+		  }]
+		}]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Gallery</title>
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body ng-app = "gApp">
+	<div ng-controller = "gController">
+		<ul>
+			<li ng-repeat="x in galleryData.type">{{'Type Name is: 	'+ x.name + '  and Id is: 	 ' + x.cId}}</li>
+			<li ng-repeat="y in galleryData.templates">{{'Type Name is: 	'+ y.name + '  and Id is: 	 ' + y.cId}}</li>
+		</ul>
+	</div>
+	<script>
+	
+		var galleryApp = angular.module('gApp', []);
+		
+		galleryApp.controller('gController', function($scope, $http){
+			$http.get("adGallery.json")
+				 .then(function (response){
+					$scope.galleryData = response.data;
+					console.log($scope.galleryData)
+				 }, function (error){
+					alert("Error " + error);
+				 });
+		});
+	
+	</script>
+</body>
+</html>
