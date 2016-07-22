@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+    <head>
+        <title>Ad Gallery</title>
+        <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="content/css/bootstrap-theme.min.css" rel="stylesheet" />
+        <link href="content/css/custom.css" rel="stylesheet" />
+        <script src="vendor/jquery.min.js"></script>
+        <script src="vendor/bootstrap.min.js"></script>
+        <script src="vendor/angular.js"></script>
+        <script src="vendor/angular-route.js"></script>
+
+        <script src="app/app.module.js"></script>
+        <script src="app/layout/shell.module.js"></script>
+        <script src="app/layout/shell.ctrl.js"></script>
+        <script src="app/templateMenu/templateMenu.module.js"></script>
+        <script src="app/templateMenu/templateMenu.ctrl.js"></script>
+        <script src="app/creativesThumb/creativesThumb.module.js"></script>
+        <script src="app/creativesThumb/creativesThumb.ctrl.js"></script>
+        <script src="app/creativeDetails/creativeDetails.module.js"></script>
+        <script src="app/creativeDetails/creativeDetails.ctrl.js"></script>
+        <script src="app/component/component.module.js"></script>
+        <script src="app/component/templateMenu.view.js"></script>
+        <script src="app/data/data.module.js"></script>
+        <script src="app/data/creative.svc.js"></script>
+        <script src="app/creativeDetails/creativeDetails.view.js"></script>
+    </head>
+    <body>
+        <ng-include src="'app/layout/shell.html'"></ng-include>
+    </body>
+</html>
